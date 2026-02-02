@@ -40,8 +40,11 @@ Se encuentra separada de la vista y se encarga de inicializar el sistema, crear 
 🛠 Requisitos:
 
 Para ejecutar el proyecto necesitas:
+
 Java JDK 8 o superior
+
 Apache NetBeans 12 o superior
+
 Sistema operativo: Windows, Linux o macOS
 
 ⚙️ Instalación y configuración:
