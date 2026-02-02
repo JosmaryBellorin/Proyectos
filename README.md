@@ -50,16 +50,23 @@ Sistema operativo: Windows, Linux o macOS
 ⚙️ Instalación y configuración:
 
 Entra al repositorio en GitHub.
+
 Descarga el proyecto en formato ZIP.
+
 Extrae el archivo en tu computadora.
+
 Abre Apache NetBeans.
+
 Ve a File → Open Project.
+
 Selecciona la carpeta del proyecto y ábrelo.
 
 ▶️ Ejecutar el programa:
 
 Abre el proyecto en NetBeans.
+
 Ubica la clase Main (clase principal del proyecto).
+
 Ejecuta el proyecto presionando Run Project.
 
 🔄 Uso en otros IDEs
@@ -67,10 +74,15 @@ Ejecuta el proyecto presionando Run Project.
 Este proyecto fue creado en NetBeans, pero puede ejecutarse en otros IDEs compatibles con Java.
 
 Descarga el ZIP del repositorio.
+
 Abre tu IDE (IntelliJ IDEA, Eclipse, etc.).
+
 Selecciona Import Project → Java Project with Existing Sources.
+
 Elige la carpeta del proyecto.
+
 Configura el JDK (8 o superior).
+
 Ejecuta la clase principal (Main).
 
 📂 Estructura del proyecto
