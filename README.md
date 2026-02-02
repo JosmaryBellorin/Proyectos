@@ -82,6 +82,7 @@ ControladorContactos → intermediario entre la vista y el modelo
 
 Interfaz:
 VentanaPrincipal → ventana principal del sistema
+
 DialogoAgregarContacto → diálogo para agregar y editar contactos
 
 Main:
