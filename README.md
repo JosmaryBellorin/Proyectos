@@ -54,6 +54,7 @@ Ve a File → Open Project.
 Selecciona la carpeta del proyecto y ábrelo.
 
 ▶️ Ejecutar el programa:
+
 Abre el proyecto en NetBeans.
 Ubica la clase Main (clase principal del proyecto).
 Ejecuta el proyecto presionando Run Project.
