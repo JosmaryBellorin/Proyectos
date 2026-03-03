@@ -18,7 +18,7 @@ Mantener los vértices ordenados alfabéticamente
 Reiniciar completamente el grafo
 Separar la lógica del modelo, el control y la vista (MVC)
 
-🧠 Arquitectura utilizada
+🧠 Arquitectura utilizada:
 El proyecto sigue el patrón Modelo–Vista–Controlador (MVC):
 
 Modelo (Logica)
@@ -44,7 +44,7 @@ La vista únicamente muestra información y captura eventos del usuario.
 Clase Main
 La clase Main inicializa el modelo, el controlador y la vista, y lanza la aplicación.
 
-🔍 Algoritmo Implementado
+🔍 Algoritmo Implementado:
 Se utiliza DFS (Depth First Search) para:
 
 Detectar puentes del grafo
@@ -54,14 +54,14 @@ V = número de vértices
 E = número de aristas
 Se implementa mediante recorrido recursivo y manejo de tiempos de descubrimiento y valores low.
 
-🛠 Requisitos
+🛠 Requisitos:
 
 Para ejecutar el proyecto necesitas:
 Java JDK 8 o superior
 Apache NetBeans 12 o superior
 Sistema operativo: Windows, Linux o macOS
 
-⚙️ Instalación y configuración
+⚙️ Instalación y configuración:
 
 Entra al repositorio en GitHub.
 Descarga el proyecto en formato ZIP.
@@ -71,12 +71,12 @@ Ve a File → Open Project.
 Selecciona la carpeta del proyecto y ábrelo.
 
 
-▶️ Ejecutar el programa
+▶️ Ejecutar el programa:
 Abre el proyecto en NetBeans.
 Ubica la clase Main.
 Ejecuta el proyecto presionando Run Project.
 
-🔄 Uso en otros IDEs
+🔄 Uso en otros IDEs:
 Este proyecto fue creado en NetBeans, pero puede ejecutarse en otros IDEs compatibles con Java.
 Descarga el ZIP del repositorio.
 Abre tu IDE (IntelliJ IDEA, Eclipse, etc.).
@@ -84,7 +84,7 @@ Selecciona Import Project → Java Project with Existing Sources.
 Configura el JDK (8 o superior).
 Ejecuta la clase Main.
 
-🎯 Características destacadas
+🎯 Características destacadas:
 Implementación real del algoritmo DFS
 Detección de puentes y puntos de articulación
 Validación de entradas y manejo de errores
@@ -92,5 +92,5 @@ Arquitectura limpia basada en MVC
 Código estructurado y comentado
 Interfaz gráfica amigable
 
-👨‍🎓 Autora
+👨‍🎓 Autora:
 Josmary Bellorin
