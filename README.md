@@ -1,4 +1,4 @@
-📘 Proyecto: Analizador de Grafos con Detección de Puentes y Puntos de Articulación
+📘 Proyecto: Sistema de Detección de puentes y puntos de articulación usando DFS
 Este proyecto fue desarrollado para la materia Técnicas de Programación III.
 El sistema permite crear y analizar grafos utilizando Java, aplicando Programación Orientada a Objetos, el patrón de arquitectura MVC (Modelo–Vista–Controlador), una interfaz gráfica en Swing y el algoritmo DFS (Depth First Search) para la detección de puentes y puntos de articulación.
 
