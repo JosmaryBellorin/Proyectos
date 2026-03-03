@@ -86,7 +86,6 @@ Ejecuta la clase Main.
 
 🎯 Características destacadas
 Implementación real del algoritmo DFS
-
 Detección de puentes y puntos de articulación
 Validación de entradas y manejo de errores
 Arquitectura limpia basada en MVC
