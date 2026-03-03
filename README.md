@@ -5,11 +5,12 @@ El sistema permite crear y analizar grafos utilizando Java, aplicando Programaci
 
 ✅ ¿Qué hace el programa?
 
-Agregar nuevos vértices al grafo
-Agregar aristas entre vértices existentes
-Mostrar el grafo actual
+Agregar nuevos vértices al grafo.
+
+Agregar aristas entre vértices existentes.
+Mostrar el grafo actual.
 Ejecutar el algoritmo DFS
-Detectar puentes del grafo
+Detectar puentes del grafo.
 Detectar puntos de articulación
 Mostrar resultados en la interfaz gráfica
 Validar entradas del usuario
