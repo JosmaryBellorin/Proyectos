@@ -30,18 +30,25 @@ Reiniciar completamente el grafo.
 Separar la lógica del modelo, el control y la vista (MVC).
 
 🧠 Arquitectura utilizada:
+
 El proyecto sigue el patrón Modelo–Vista–Controlador (MVC):
 
 Modelo (Logica)
+
 Contiene la representación del grafo y la lógica del algoritmo DFS.
 
 Grafo → administra vértices, aristas y ejecuta el análisis DFS
+
 Vertice → representa un nodo del grafo
+
 Arista → representa una conexión entre dos vértices
+
 El modelo utiliza lista de adyacencia y estructuras ordenadas para mantener consistencia en la visualización.
 
 Controlador (Controlador)
+
 ControladorGrafo → Intermediario entre la vista y el modelo
+
 Procesa las acciones del usuario, valida condiciones (como grafo vacío) y gestiona los mensajes de error.
 
 Vista (Interfaz)
