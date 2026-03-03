@@ -52,24 +52,34 @@ ControladorGrafo → Intermediario entre la vista y el modelo
 Procesa las acciones del usuario, valida condiciones (como grafo vacío) y gestiona los mensajes de error.
 
 Vista (Interfaz)
+
 Contiene la interfaz gráfica desarrollada en Swing:
 
-VentanaPrincipal → ventana principal del sistema
-DialogAgregarVertice → diálogo para ingresar vértices
-DialogAgregarArista → diálogo para ingresar aristas
+VentanaPrincipal → ventana principal del sistema.
+
+DialogAgregarVertice → diálogo para ingresar vértices.
+
+DialogAgregarArista → diálogo para ingresar aristas.
+
 La vista únicamente muestra información y captura eventos del usuario.
 
-Clase Main
+Clase Main.
+
 La clase Main inicializa el modelo, el controlador y la vista, y lanza la aplicación.
 
 🔍 Algoritmo Implementado:
+
 Se utiliza DFS (Depth First Search) para:
 
-Detectar puentes del grafo
-Detectar puntos de articulación
+Detectar puentes del grafo/
+
+Detectar puntos de articulación.
+
 El algoritmo se ejecuta con complejidad O(V + E), donde:
+
 V = número de vértices
 E = número de aristas
+
 Se implementa mediante recorrido recursivo y manejo de tiempos de descubrimiento y valores low.
 
 🛠 Requisitos:
