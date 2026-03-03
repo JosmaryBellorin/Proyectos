@@ -1,123 +1,95 @@
-📘 Proyecto: Gestor de Contactos con Indexación
-
+📘 Proyecto: Analizador de Grafos con Detección de Puentes y Puntos de Articulación
 Este proyecto fue desarrollado para la materia Técnicas de Programación III.
-
-El sistema permite gestionar contactos de manera sencilla utilizando Java, aplicando Programación Orientada a Objetos, el patrón de arquitectura MVC (Modelo–Vista–Controlador), una interfaz gráfica en Swing y un sistema de indexación con HashMap para búsquedas eficientes.
+El sistema permite crear y analizar grafos utilizando Java, aplicando Programación Orientada a Objetos, el patrón de arquitectura MVC (Modelo–Vista–Controlador), una interfaz gráfica en Swing y el algoritmo DFS (Depth First Search) para la detección de puentes y puntos de articulación.
 
 ✅ ¿Qué hace el programa?
 
-Registrar nuevos contactos
-Editar contactos existentes
-Eliminar contactos del sistema
-Buscar contactos por nombre
-Mostrar todos los contactos registrados
-Mostrar la información completa de un contacto seleccionado
-Cargar contactos iniciales al iniciar el programa
-Mantener la lista de contactos ordenada alfabéticamente
-Validar los datos ingresados por el usuario
-Separar completamente la lógica del negocio, el control y la interfaz gráfica (MVC)
-Utilizar indexación mediante HashMap para búsquedas rápidas
+Agregar nuevos vértices al grafo
+Agregar aristas entre vértices existentes
+Mostrar el grafo actual
+Ejecutar el algoritmo DFS
+Detectar puentes del grafo
+Detectar puntos de articulación
+Mostrar resultados en la interfaz gráfica
+Validar entradas del usuario
+Evitar duplicados de vértices y aristas
+Mantener los vértices ordenados alfabéticamente
+Reiniciar completamente el grafo
+Separar la lógica del modelo, el control y la vista (MVC)
 
-🧠 Arquitectura utilizada:
-
+🧠 Arquitectura utilizada
 El proyecto sigue el patrón Modelo–Vista–Controlador (MVC):
 
 Modelo (Logica)
-Encapsula los datos y las reglas de negocio.
-Incluye validaciones, manejo de duplicados y estructura interna de almacenamiento.
+Contiene la representación del grafo y la lógica del algoritmo DFS.
+
+Grafo → administra vértices, aristas y ejecuta el análisis DFS
+Vertice → representa un nodo del grafo
+Arista → representa una conexión entre dos vértices
+El modelo utiliza lista de adyacencia y estructuras ordenadas para mantener consistencia en la visualización.
 
 Controlador (Controlador)
-Actúa como intermediario entre la vista y el modelo.
-Procesa las acciones del usuario y gestiona los errores de forma controlada.
+ControladorGrafo → Intermediario entre la vista y el modelo
+Procesa las acciones del usuario, valida condiciones (como grafo vacío) y gestiona los mensajes de error.
 
 Vista (Interfaz)
-Contiene la interfaz gráfica en Swing.
-Se encarga únicamente de mostrar información y capturar eventos del usuario.
+Contiene la interfaz gráfica desarrollada en Swing:
 
-Clase Main:
-Se encuentra separada de la vista y se encarga de inicializar el sistema, crear las instancias del modelo y controlador, cargar los contactos iniciales y lanzar la interfaz gráfica.
+VentanaPrincipal → ventana principal del sistema
+DialogAgregarVertice → diálogo para ingresar vértices
+DialogAgregarArista → diálogo para ingresar aristas
+La vista únicamente muestra información y captura eventos del usuario.
 
-🛠 Requisitos:
+Clase Main
+La clase Main inicializa el modelo, el controlador y la vista, y lanza la aplicación.
+
+🔍 Algoritmo Implementado
+Se utiliza DFS (Depth First Search) para:
+
+Detectar puentes del grafo
+Detectar puntos de articulación
+El algoritmo se ejecuta con complejidad O(V + E), donde:
+V = número de vértices
+E = número de aristas
+Se implementa mediante recorrido recursivo y manejo de tiempos de descubrimiento y valores low.
+
+🛠 Requisitos
 
 Para ejecutar el proyecto necesitas:
-
 Java JDK 8 o superior
-
 Apache NetBeans 12 o superior
-
 Sistema operativo: Windows, Linux o macOS
 
-⚙️ Instalación y configuración:
+⚙️ Instalación y configuración
 
 Entra al repositorio en GitHub.
-
 Descarga el proyecto en formato ZIP.
-
 Extrae el archivo en tu computadora.
-
 Abre Apache NetBeans.
-
 Ve a File → Open Project.
-
 Selecciona la carpeta del proyecto y ábrelo.
 
-▶️ Ejecutar el programa:
 
+▶️ Ejecutar el programa
 Abre el proyecto en NetBeans.
-
-Ubica la clase Main (clase principal del proyecto).
-
+Ubica la clase Main.
 Ejecuta el proyecto presionando Run Project.
 
 🔄 Uso en otros IDEs
-
 Este proyecto fue creado en NetBeans, pero puede ejecutarse en otros IDEs compatibles con Java.
-
 Descarga el ZIP del repositorio.
-
 Abre tu IDE (IntelliJ IDEA, Eclipse, etc.).
-
 Selecciona Import Project → Java Project with Existing Sources.
-
-Elige la carpeta del proyecto.
-
 Configura el JDK (8 o superior).
+Ejecuta la clase Main.
 
-Ejecuta la clase principal (Main).
+🎯 Características destacadas
+Implementación real del algoritmo DFS
+Detección de puentes y puntos de articulación
+Validación de entradas y manejo de errores
+Arquitectura limpia basada en MVC
+Código estructurado y comentado
+Interfaz gráfica amigable
 
-📂 Estructura del proyecto
-
-Logica:
-
-Contacto → representa un contacto individual y valida su estado
-GestorContactos → administra la lista de contactos, las reglas de negocio y la indexación
-
-Controlador:
-ControladorContactos → intermediario entre la vista y el modelo
-
-Interfaz:
-VentanaPrincipal → ventana principal del sistema
-
-DialogoAgregarContacto → diálogo para agregar y editar contactos
-
-Main:
-Clase Main → punto de entrada de la aplicación
-
-Iconos:
-Contiene las imágenes utilizadas en los botones de la interfaz gráfica
-
-🎨 Íconos de la Interfaz:
-
-La aplicación utiliza íconos para mejorar la experiencia del usuario.
-Los íconos se encuentran en el paquete Iconos y se cargan mediante ImageIcon.
-
-Estos íconos representan acciones como:
-Añadir contacto
-Editar contacto
-Buscar contacto
-Eliminar contacto
-Mostrar contactos
-
-👨‍🎓 Autores:
-Ronny Muñoz,
+👨‍🎓 Autora
 Josmary Bellorin
