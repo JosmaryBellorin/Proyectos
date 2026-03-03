@@ -8,16 +8,26 @@ El sistema permite crear y analizar grafos utilizando Java, aplicando Programaci
 Agregar nuevos vértices al grafo.
 
 Agregar aristas entre vértices existentes.
+
 Mostrar el grafo actual.
-Ejecutar el algoritmo DFS
+
+Ejecutar el algoritmo DFS.
+
 Detectar puentes del grafo.
-Detectar puntos de articulación
-Mostrar resultados en la interfaz gráfica
-Validar entradas del usuario
-Evitar duplicados de vértices y aristas
-Mantener los vértices ordenados alfabéticamente
-Reiniciar completamente el grafo
-Separar la lógica del modelo, el control y la vista (MVC)
+
+Detectar puntos de articulación.
+
+Mostrar resultados en la interfaz gráfica.
+
+Validar entradas del usuario.
+
+Evitar duplicados de vértices y aristas.
+
+Mantener los vértices ordenados alfabéticamente.
+
+Reiniciar completamente el grafo.
+
+Separar la lógica del modelo, el control y la vista (MVC).
 
 🧠 Arquitectura utilizada:
 El proyecto sigue el patrón Modelo–Vista–Controlador (MVC):
