@@ -7,14 +7,12 @@ include("../../includes/header.php");
     <div class="row">
 
         <?php
-        include("../../includes/sidebar.php");
+        include("../../includes/sidebar_personal.php");
         ?>
 
         <div class="col-md-10 p-4 dashboard">
 
-            <!-- Logo -->
-
-           <div class="text-center mt-3 mb-3">
+            <div class="text-center mt-3 mb-3">
 
                 <img src="../../assets/img/logo.png"
                      width="370"
@@ -22,29 +20,23 @@ include("../../includes/header.php");
 
             </div>
 
-            <!-- Bienvenida -->
-
             <div class="text-center mb-4">
 
                 <h2 class="fw-bold">
 
-                    Bienvenido, Administrador 
+                    Bienvenido, Personal Administrativo
 
                 </h2>
 
                 <p class="text-secondary">
 
-                    Gestiona usuarios, vehículos, traslados y pagos desde este panel.
+                    Administra evaluaciones, revisiones, pagos y el registro de choferes.
 
                 </p>
 
             </div>
 
-            <!-- Tarjetas -->
-
-            <div class="row mt-2">
-
-                <!-- Usuarios -->
+            <div class="row">
 
                 <div class="col-md-3 mb-4">
 
@@ -52,21 +44,13 @@ include("../../includes/header.php");
 
                         <div class="card-body">
 
-                            <img src="../../assets/img/usuarios.png"
-                                 width="70"
+                            <img src="../../assets/img/personal/choferes.png"
+                                 width="80"
                                  class="mb-3">
 
-                            <h3>
+                            <h3>42</h3>
 
-                                120
-
-                            </h3>
-
-                            <h5>
-
-                                Usuarios
-
-                            </h5>
+                            <h5>Choferes</h5>
 
                             <p class="text-secondary mb-0">
 
@@ -79,8 +63,6 @@ include("../../includes/header.php");
                     </div>
 
                 </div>
-
-                <!-- Vehículos -->
 
                 <div class="col-md-3 mb-4">
 
@@ -88,25 +70,17 @@ include("../../includes/header.php");
 
                         <div class="card-body">
 
-                            <img src="../../assets/img/vehiculos.png"
+                            <img src="../../assets/img/personal/evaluaciones.png"
                                  width="70"
                                  class="mb-3">
 
-                            <h3>
+                            <h3>15</h3>
 
-                                35
-
-                            </h3>
-
-                            <h5>
-
-                                Vehículos
-
-                            </h5>
+                            <h5>Evaluaciones</h5>
 
                             <p class="text-secondary mb-0">
 
-                                Registrados
+                                Pendientes
 
                             </p>
 
@@ -115,8 +89,6 @@ include("../../includes/header.php");
                     </div>
 
                 </div>
-
-                <!-- Traslados -->
 
                 <div class="col-md-3 mb-4">
 
@@ -124,25 +96,17 @@ include("../../includes/header.php");
 
                         <div class="card-body">
 
-                            <img src="../../assets/img/traslados.png"
+                            <img src="../../assets/img/personal/revisiones.png"
                                  width="70"
                                  class="mb-3">
 
-                            <h3>
+                            <h3>9</h3>
 
-                                18
-
-                            </h3>
-
-                            <h5>
-
-                                Traslados
-
-                            </h5>
+                            <h5>Revisiones</h5>
 
                             <p class="text-secondary mb-0">
 
-                                Realizados
+                                Programadas
 
                             </p>
 
@@ -152,33 +116,23 @@ include("../../includes/header.php");
 
                 </div>
 
-                <!-- Ganancias -->
-
                 <div class="col-md-3 mb-4">
 
-                    <div class="card card-ganancias text-center">
+                    <div class="card card-Pagos text-center">
 
                         <div class="card-body">
 
-                            <img src="../../assets/img/ganancias.png"
-                                 width="70"
+                            <img src="../../assets/img/personal/Pagos.png"
+                                 width="80"
                                  class="mb-3">
 
-                            <h3>
+                            <h3>$1,350</h3>
 
-                                $2,450
-
-                            </h3>
-
-                            <h5>
-
-                                Ganancias
-
-                            </h5>
+                            <h5>Pagos</h5>
 
                             <p class="text-secondary mb-0">
 
-                                Totales
+                                Procesados
 
                             </p>
 

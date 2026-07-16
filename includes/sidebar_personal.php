@@ -4,30 +4,19 @@
 
         <i class="bi bi-person-workspace" style="font-size:60px;"></i>
 
-        <h5 class="mt-2">
+        <h5 class="mt-2">Personal Administrativo</h5>
 
-            Administrador
-
-        </h5>
-
-        <small class="text-light">
-
-            Sistema Decarrerita
-
-        </small>
+        <small class="text-secondary">Panel Principal</small>
 
     </div>
 
-
-    <hr class="text-light">
-
+    <hr class="text-secondary">
 
     <ul class="nav flex-column">
 
-
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white active" href="#">
+            <a class="nav-link text-white active" href="../personal/menu.php">
 
                 <i class="bi bi-speedometer2"></i>
 
@@ -37,19 +26,29 @@
 
         </li>
 
-
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="../personal/gestionar_choferes.php">
 
-                <i class="bi bi-people-fill"></i>
+                <i class="bi bi-person-vcard-fill"></i>
 
-                Usuarios
+                Gestionar Choferes
 
             </a>
 
         </li>
 
+        <li class="nav-item mb-2">
+
+            <a class="nav-link text-white" href="#">
+
+                <i class="bi bi-clipboard2-pulse-fill"></i>
+
+                Evaluaciones
+
+            </a>
+
+        </li>
 
         <li class="nav-item mb-2">
 
@@ -57,25 +56,11 @@
 
                 <i class="bi bi-car-front-fill"></i>
 
-                Vehículos
+                Revisiones
 
             </a>
 
         </li>
-
-
-        <li class="nav-item mb-2">
-
-            <a class="nav-link text-white" href="#">
-
-                <i class="bi bi-taxi-front-fill"></i>
-
-                Traslados
-
-            </a>
-
-        </li>
-
 
         <li class="nav-item mb-2">
 
@@ -89,38 +74,9 @@
 
         </li>
 
-
-        <li class="nav-item mb-2">
-
-            <a class="nav-link text-white" href="#">
-
-                <i class="bi bi-graph-up"></i>
-
-                Reportes
-
-            </a>
-
-        </li>
-
-
-        <li class="nav-item mb-2">
-
-            <a class="nav-link text-white" href="#">
-
-                <i class="bi bi-gear-fill"></i>
-
-                Configuración
-
-            </a>
-
-        </li>
-
-
     </ul>
 
-
-    <hr class="text-light">
-
+    <hr class="text-secondary">
 
     <a href="../../index.php" class="btn btn-danger w-100">
 
@@ -129,6 +85,5 @@
         Cerrar sesión
 
     </a>
-
 
 </div>

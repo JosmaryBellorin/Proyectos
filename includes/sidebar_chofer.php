@@ -1,12 +1,12 @@
-<div class="col-md-2 sidebar vh-100 p-3">
+<div class="col-md-2 text-white vh-100 p-3" style="background:#1E2E4F;">
 
     <div class="text-center mb-4">
 
-        <i class="bi bi-person-workspace" style="font-size:60px;"></i>
+        <i class="bi bi-person-circle" style="font-size:60px;"></i>
 
         <h5 class="mt-2">
 
-            Administrador
+            Chofer
 
         </h5>
 
@@ -18,16 +18,13 @@
 
     </div>
 
-
     <hr class="text-light">
-
 
     <ul class="nav flex-column">
 
-
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white active" href="#">
+            <a class="nav-link text-white active" href="menu.php">
 
                 <i class="bi bi-speedometer2"></i>
 
@@ -37,45 +34,29 @@
 
         </li>
 
-
-        <li class="nav-item mb-2">
-
-            <a class="nav-link text-white" href="#">
-
-                <i class="bi bi-people-fill"></i>
-
-                Usuarios
-
-            </a>
-
-        </li>
-
-
-        <li class="nav-item mb-2">
-
-            <a class="nav-link text-white" href="#">
-
-                <i class="bi bi-car-front-fill"></i>
-
-                Vehículos
-
-            </a>
-
-        </li>
-
-
         <li class="nav-item mb-2">
 
             <a class="nav-link text-white" href="#">
 
                 <i class="bi bi-taxi-front-fill"></i>
 
-                Traslados
+                Mis traslados
 
             </a>
 
         </li>
 
+        <li class="nav-item mb-2">
+
+            <a class="nav-link text-white" href="#">
+
+                <i class="bi bi-clock-history"></i>
+
+                Historial de viajes
+
+            </a>
+
+        </li>
 
         <li class="nav-item mb-2">
 
@@ -83,44 +64,27 @@
 
                 <i class="bi bi-cash-stack"></i>
 
-                Pagos
+                Mis pagos
 
             </a>
 
         </li>
-
 
         <li class="nav-item mb-2">
 
             <a class="nav-link text-white" href="#">
 
-                <i class="bi bi-graph-up"></i>
+                <i class="bi bi-person-fill"></i>
 
-                Reportes
-
-            </a>
-
-        </li>
-
-
-        <li class="nav-item mb-2">
-
-            <a class="nav-link text-white" href="#">
-
-                <i class="bi bi-gear-fill"></i>
-
-                Configuración
+                Mi perfil
 
             </a>
 
         </li>
-
 
     </ul>
 
-
     <hr class="text-light">
-
 
     <a href="../../index.php" class="btn btn-danger w-100">
 
@@ -129,6 +93,5 @@
         Cerrar sesión
 
     </a>
-
 
 </div>

@@ -1,4 +1,4 @@
-<?php
+<?php 
 include("../../includes/header.php");
 ?>
 
@@ -7,14 +7,14 @@ include("../../includes/header.php");
     <div class="row">
 
         <?php
-        include("../../includes/sidebar.php");
+        include("../../includes/sidebar_cliente.php");
         ?>
 
         <div class="col-md-10 p-4 dashboard">
 
             <!-- Logo -->
 
-           <div class="text-center mt-3 mb-3">
+            <div class="text-center mt-3 mb-3">
 
                 <img src="../../assets/img/logo.png"
                      width="370"
@@ -22,91 +22,58 @@ include("../../includes/header.php");
 
             </div>
 
+
             <!-- Bienvenida -->
 
             <div class="text-center mb-4">
 
                 <h2 class="fw-bold">
 
-                    Bienvenido, Administrador 
+                    Bienvenido, Cliente
 
                 </h2>
 
                 <p class="text-secondary">
 
-                    Gestiona usuarios, vehículos, traslados y pagos desde este panel.
+                    Consulta tus viajes y administra tu información desde este panel.
 
                 </p>
 
             </div>
 
+
             <!-- Tarjetas -->
 
-            <div class="row mt-2">
+            <div class="row justify-content-center g-4">
 
-                <!-- Usuarios -->
 
-                <div class="col-md-3 mb-4">
+                <!-- Saldo -->
 
-                    <div class="card card-usuarios text-center">
-
-                        <div class="card-body">
-
-                            <img src="../../assets/img/usuarios.png"
-                                 width="70"
-                                 class="mb-3">
-
-                            <h3>
-
-                                120
-
-                            </h3>
-
-                            <h5>
-
-                                Usuarios
-
-                            </h5>
-
-                            <p class="text-secondary mb-0">
-
-                                Registrados
-
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Vehículos -->
-
-                <div class="col-md-3 mb-4">
+                <div class="col-md-4 col-lg-3">
 
                     <div class="card card-vehiculos text-center">
 
                         <div class="card-body">
 
-                            <img src="../../assets/img/vehiculos.png"
+                            <img src="../../assets/img/ganancias.png"
                                  width="70"
                                  class="mb-3">
 
                             <h3>
 
-                                35
+                                $150
 
                             </h3>
 
                             <h5>
 
-                                Vehículos
+                                Saldo
 
                             </h5>
 
                             <p class="text-secondary mb-0">
 
-                                Registrados
+                                Disponible
 
                             </p>
 
@@ -116,9 +83,11 @@ include("../../includes/header.php");
 
                 </div>
 
-                <!-- Traslados -->
 
-                <div class="col-md-3 mb-4">
+
+                <!-- Viajes -->
+
+                <div class="col-md-4 col-lg-3">
 
                     <div class="card card-traslados text-center">
 
@@ -130,13 +99,13 @@ include("../../includes/header.php");
 
                             <h3>
 
-                                18
+                                28
 
                             </h3>
 
                             <h5>
 
-                                Traslados
+                                Viajes
 
                             </h5>
 
@@ -152,33 +121,35 @@ include("../../includes/header.php");
 
                 </div>
 
-                <!-- Ganancias -->
 
-                <div class="col-md-3 mb-4">
+
+                <!-- Estado -->
+
+                <div class="col-md-4 col-lg-3">
 
                     <div class="card card-ganancias text-center">
 
                         <div class="card-body">
 
-                            <img src="../../assets/img/ganancias.png"
+                            <img src="../../assets/img/cliente/estado.png"
                                  width="70"
                                  class="mb-3">
 
                             <h3>
 
-                                $2,450
+                                Activo
 
                             </h3>
 
                             <h5>
 
-                                Ganancias
+                                Estado
 
                             </h5>
 
                             <p class="text-secondary mb-0">
 
-                                Totales
+                                Cuenta
 
                             </p>
 
@@ -188,6 +159,7 @@ include("../../includes/header.php");
 
                 </div>
 
+
             </div>
 
         </div>
@@ -195,6 +167,7 @@ include("../../includes/header.php");
     </div>
 
 </div>
+
 
 <?php
 include("../../includes/footer.php");
